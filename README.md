@@ -16,7 +16,7 @@ Scanning Acoustic Microscopy (SAM) uses highfrequency acoustic waves to generate
 
 ## Training
 
-The training was initially done on the Celeba-HQ dataset and then finetuned on the SAM dataset. The mask used was the grid mak.
+The training was initially done on the Celeba-HQ dataset and then finetuned on the SAM dataset. The mask used was the grid mask.
 
 ```bash
 python training.py  --random_mask 2 --train_dir [Training dir]
